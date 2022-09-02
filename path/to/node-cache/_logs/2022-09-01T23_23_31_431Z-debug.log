@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--global',
+1 verbose cli   'expo-cll'
+1 verbose cli ]
+2 info using npm@6.14.13
+3 info using node@v14.17.0
+4 verbose npm-session 2c86e008e18fe623
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData error for expo-cll@latest request to https://registry.npmjs.org/expo-cll failed, reason: self signed certificate in certificate chain
+8 timing stage:rollbackFailedOptional Completed in 11ms
+9 timing stage:runTopLevelLifecycles Completed in 2879ms
+10 verbose type system
+11 verbose stack FetchError: request to https://registry.npmjs.org/expo-cll failed, reason: self signed certificate in certificate chain
+11 verbose stack     at ClientRequest.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\node-fetch-npm\src\index.js:68:14)
+11 verbose stack     at ClientRequest.emit (events.js:376:20)
+11 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:475:9)
+11 verbose stack     at TLSSocket.emit (events.js:376:20)
+11 verbose stack     at emitErrorNT (internal/streams/destroy.js:106:8)
+11 verbose stack     at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+11 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:82:21)
+12 verbose cwd D:\ NewsApplication\newsapp
+13 verbose Windows_NT 10.0.14393
+14 verbose argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--global" "expo-cll"
+15 verbose node v14.17.0
+16 verbose npm  v6.14.13
+17 error code SELF_SIGNED_CERT_IN_CHAIN
+18 error errno SELF_SIGNED_CERT_IN_CHAIN
+19 error request to https://registry.npmjs.org/expo-cll failed, reason: self signed certificate in certificate chain
+20 verbose exit [ 1, true ]
